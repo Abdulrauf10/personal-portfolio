@@ -34,9 +34,12 @@ const About = () => {
           }
         }}
       >
+        <h3 className="text-text-color text-3xl sx:max-sm:text-2xl text-center mb-5">
+          Career and Education
+        </h3>
         <div className="flex justify-center items-center sx:max-sm:flex-col">
           <div className="w-1/4 bg-secondary p-2 rounded-lg sx:max-sm:w-3/4 sx:max-sm:text-center">
-            <p>
+            <p className="text-text-color">
               I am a full-stack web developer, currently work with javascript
               and typescript. I thrive on mastering diverse array of
               technologies to bring projects to life. From front-end frameworks
@@ -44,7 +47,7 @@ const About = () => {
             </p>
 
             <p className="mt-7">Technologies:</p>
-            <div className="flex mt-3 justify-between text-2xl">
+            <div className="flex mt-3 justify-between text-2xl text-text-color">
               <BiLogoJavascript />
               <BiLogoTypescript />
               <BiLogoReact />
@@ -59,10 +62,9 @@ const About = () => {
           </div>
 
           <div className="w-1/4 ml-5 sx:max-sm:w-2/4 sx:max-sm:mt-12">
-            <p className="mb-2 sx:max-sm:text-center">Career and Education:</p>
             <ul className="steps steps-vertical">
               <li className="step step-primary pb-10">
-                <p className="text-left">
+                <p className="text-left text-text-color">
                   March, 2021 - October, 2021
                   <br />
                   Full-stack Web Development
@@ -72,7 +74,7 @@ const About = () => {
               </li>
 
               <li className="step step-primary">
-                <p className="text-left">
+                <p className="text-left text-text-color">
                   April, 2022 - November, 2022
                   <br />
                   Full-stack Web Development
@@ -82,7 +84,7 @@ const About = () => {
               </li>
 
               <li className="step step-primary">
-                <p className="text-left">
+                <p className="text-left text-text-color">
                   December, 2022 - Present
                   <br />
                   Frontend Engineer
