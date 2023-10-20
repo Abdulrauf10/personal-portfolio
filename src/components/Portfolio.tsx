@@ -7,7 +7,7 @@ const Portfolio = () => {
         Current Projects
       </h3>
       <div className="flex justify-center items-center sx:max-sm:flex-col">
-        <div className="card lg:card-side bg-base-100 shadow-xl mr-8 sx:max-sm:mb-8 sx:max-sm:w-60">
+        <div className="card lg:card-side bg-base-100 shadow-xl sx:max-sm:mb-8 sx:max-sm:w-60 mr-10 sx:max-sm:mr-0 ">
           <figure>
             <img src="/images/flexibbleApp.png" alt="Album" />
           </figure>
