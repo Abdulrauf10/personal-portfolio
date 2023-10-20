@@ -1,16 +1,16 @@
 import Link from 'next/link'
 import { FC } from 'react'
+import { FaGithubSquare } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 const Navbar: FC = () => {
   return (
     <div className="navbar z-10 fixed p-4">
       <div className="flex-1">
-        <Link
-          href={'/'}
-          className="bg-secondary text-text-color normal-case text-xl p-2 rounded-lg"
-        >
-          Home
-        </Link>
+        <a href="mailto:abd.rauf.lamada@gmail.com">
+          <MdEmail className="text-text-color text-5xl sx:max-sm:text-3xl" />
+        </a>
       </div>
 
       <div className="dropdown">
@@ -35,10 +35,22 @@ const Navbar: FC = () => {
           className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-5 "
         >
           <li className="mb-3">
-            <Link href={'/about'}>About</Link>
+            <a
+              href="https://www.linkedin.com/in/muhammad-abdul-rauf-44b5a1171/"
+              target="_blank"
+              className="mb-1.5"
+            >
+              <FaLinkedin className="text-5xl text-text-color sx:max-sm:text-3xl" />
+            </a>
           </li>
           <li>
-            <Link href={'/portfolio'}>Portfolio</Link>
+            <a
+              href="https://github.com/Abdulrauf10"
+              target="_blank"
+              className="mb-1.5"
+            >
+              <FaGithubSquare className="text-5xl text-text-color sx:max-sm:text-3xl" />
+            </a>
           </li>
         </ul>
       </div>
@@ -46,10 +58,22 @@ const Navbar: FC = () => {
       <div className="flex-none hidden lg:flex ">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href={'/about'}>About</Link>
+            <a
+              href="https://www.linkedin.com/in/muhammad-abdul-rauf-44b5a1171/"
+              target="_blank"
+              className="mb-1.5"
+            >
+              <FaLinkedin className="text-5xl text-text-color sx:max-sm:text-3xl" />
+            </a>
           </li>
           <li>
-            <Link href={'/portfolio'}>Portfolio</Link>
+            <a
+              href="https://github.com/Abdulrauf10"
+              target="_blank"
+              className="mb-1.5"
+            >
+              <FaGithubSquare className="text-5xl text-text-color sx:max-sm:text-3xl" />
+            </a>
           </li>
         </ul>
       </div>
